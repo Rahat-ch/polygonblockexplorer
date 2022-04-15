@@ -1,9 +1,22 @@
-# Getting Started with Create React App
+# Creating a Block Explorer on Polygon
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Before running make sure to install dependencies with either
+of the following commands: 
+
+`yarn`
+
+or 
+
+`npm install`
+
+You must generate an RPC endpoint with a service like [Alchemy](https://www.alchemy.com/)
+
+Once generated you can pass this as an argument to the provider on line 6 in `App.js`.
+
 
 ## Available Scripts
 
+You can use npm instead of yarn for any of the scripts below!
 In the project directory, you can run:
 
 ### `yarn start`
